@@ -1,113 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Markdown学习</title>
-    <url>/posts/Markdown%E5%AD%A6%E4%B9%A0/</url>
-    <content><![CDATA[<h1 id="Markdown"><a href="#Markdown" class="headerlink" title="Markdown"></a>Markdown</h1><h2 id="1-1什么是Markdown"><a href="#1-1什么是Markdown" class="headerlink" title="1.1什么是Markdown"></a>1.1什么是Markdown</h2><p>Markdown时一种轻量级的标记语言，允许使用纯文本格式编写文档后转为有效的HTML文档，Markdown编写的文档可以导出HTML、Word、图像和PDF等多种格式的文档，编写的文档后缀为.md或.markdown。</p>
-<p>它的优点在于：<br>纯文本编辑、简单易上手、支持跨平台同步数据、可插入图片视频、随时修改不用担心word等工具出现排版错误</p>
-<h2 id="Markdown基本语法"><a href="#Markdown基本语法" class="headerlink" title="Markdown基本语法"></a>Markdown基本语法</h2><h3 id="2-1-标题"><a href="#2-1-标题" class="headerlink" title="2.1 标题"></a>2.1 标题</h3><h4 id="2-1-1写法一"><a href="#2-1-1写法一" class="headerlink" title="2.1.1写法一"></a>2.1.1写法一</h4><p>使用#标记，可以表示1-6级标题，#个数越多字体越大，一级标题最大，六级标题最小</p>
-<h6 id="注意：在编写时记得-与字符之间留一个空格，并且标题应置于首，放入表格中可能无法正常解析"><a href="#注意：在编写时记得-与字符之间留一个空格，并且标题应置于首，放入表格中可能无法正常解析" class="headerlink" title="注意：在编写时记得#与字符之间留一个空格，并且标题应置于首，放入表格中可能无法正常解析"></a>注意：在编写时记得#与字符之间留一个空格，并且标题应置于首，放入表格中可能无法正常解析</h6><p>代码如下：<br>#一级标题<br>##二级标题<br>###三级标题<br>####四级标题<br>#####五级标题<br>######六级标题</p>
-<p>效果如下：</p>
-<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6><h4 id="2-1-2-写法二"><a href="#2-1-2-写法二" class="headerlink" title="2.1.2 写法二"></a>2.1.2 写法二</h4><p>在标题下面加对字符数量的==或者-来表示一级和二级标题</p>
-<h1 id="一级标题-1"><a href="#一级标题-1" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题-1"><a href="#二级标题-1" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="2-2-字体"><a href="#2-2-字体" class="headerlink" title="2.2 字体"></a>2.2 字体</h3><h6 id="使用-来改变字体，一个是斜体，两个是粗体，三个是粗斜体"><a href="#使用-来改变字体，一个是斜体，两个是粗体，三个是粗斜体" class="headerlink" title="使用*/_来改变字体，一个是斜体，两个是粗体，三个是粗斜体"></a>使用*/_来改变字体，一个是斜体，两个是粗体，三个是粗斜体</h6><p><em>斜体</em><br><em>斜体</em><br><strong>粗体</strong><br><strong>粗体</strong><br><em><strong>粗斜体</strong></em><br><em><strong>粗斜体</strong></em></p>
-<h3 id="2-3-换行"><a href="#2-3-换行" class="headerlink" title="2.3 换行"></a>2.3 换行</h3><p>1.在一句话后敲下两个空格<br>2.两句话之间加一个空行<br>3.想让一行文字在现实时候换行，在中间加&lt;br/&gt;</p>
-<h3 id="2-4-引用"><a href="#2-4-引用" class="headerlink" title="2.4 引用"></a>2.4 引用</h3><p>通过符号&gt;实现，&gt;后的空格可有可无。在引用区块内允许换行，换行不会终止引用的区块，<strong>要结束引用需要一行空白行来结束引用区块</strong></p>
-<p>效果如下</p>
-<blockquote>
-<p>引用内容</p>
-</blockquote>
-<p>引用还可以嵌套使用</p>
-<blockquote>
-<p>第一层引用</p>
-<blockquote>
-<p>第二层，这里另起一行用了两个&gt;&gt;</p>
-<blockquote>
-<p>第三层，同理这里用了三个&gt;&gt;&gt;</p>
-</blockquote>
-</blockquote>
-</blockquote>
-<h3 id="2-5-链接"><a href="#2-5-链接" class="headerlink" title="2.5 链接"></a>2.5 链接</h3><p><strong>在Markdown插入链接使用[] ()这两个要并在一起使用，前一个填写链接名称后一个填写链接地址、&lt;&gt;填写链接地址</strong></p>
-<p>即<br><a class="link"   href="https://s2.loli.net/2024/07/05/uY4OndxVlXsSL51.png" >三枝全力支援 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br>或<br><a class="link"   href="https://detawane.com/" >https://detawane.com/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-<h3 id="2-6-图片"><a href="#2-6-图片" class="headerlink" title="2.6 图片"></a>2.6 图片</h3><p> 代码:<br><code> ![图片描述，可写可不写但是一定要有](图片地址)三个符号要并在一起使用</code></p>
-<p>效果如下：<br><img  
-                     lazyload
-                     src="/images/loading.svg"
-                     data-src="https://s2.loli.net/2024/07/05/uY4OndxVlXsSL51.png"
-                      alt="三枝全力支援"
-                ></p>
-<p>此外还可以修改图片的位置和大小：<br>代码：</p>
-<blockquote>
-<p>! [图片描述，可写可不写，但是中括号要有] (图片地址，本地链接或者URL地址#pic_center空格=长x宽)</p>
-</blockquote>
-<p><em><strong>本地的图片在编写的时候显示成功但是上传到博客有可能会挂掉，为了能够成功显示可以进行将其上传托管生成链接，这里推荐一个发现了一个很方便的<a class="link"   href="https://sm.ms/" >网站sm.ms <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></strong></em></p>
-<h3 id="2-7-列表"><a href="#2-7-列表" class="headerlink" title="2.7 列表"></a>2.7 列表</h3><p>有序列表：使用*、+、-再加一个空格<br>无序列表：数字加上.号，再加一个空格</p>
-<p>效果：</p>
-<ul>
-<li>无序列表1</li>
-</ul>
-<ul>
-<li>无序列表2</li>
-</ul>
-<ul>
-<li>无序列表3</li>
-</ul>
-<ol>
-<li>有序列表</li>
-</ol>
-<p>使用Tab键控制列表层级</p>
-<ol>
-<li>有序<ol>
-<li>有序</li>
-</ol>
-</li>
-</ol>
-<ul>
-<li>无序<ul>
-<li>无序</li>
-</ul>
-</li>
-</ul>
-<h3 id="2-8-分割线、删除线、下划线"><a href="#2-8-分割线、删除线、下划线" class="headerlink" title="2.8 分割线、删除线、下划线"></a>2.8 分割线、删除线、下划线</h3><p><strong>分割线</strong><br>一行字连续三个-或者<em>来建立分割线，*<em>在分割线上需要空一行，否则会导致前一行字体放大</em></em><br>代码：</p>
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">***</span><br><span class="line">- - -</span><br><span class="line">* * *</span><br></pre></td></tr></table></figure></div>
-<p>效果：</p>
-<hr>
-<hr>
-<hr>
-<hr>
-<p><strong>删除线</strong><br>在要删除的文字前后加两个~<br>代码：<br><code>~~文字内容~~</code><br>效果：<br> <del>文字内容</del></p>
-<p><strong>下划线</strong><br>和html类似，<code>&lt;u&gt;文本&lt;/u&gt;</code><br>效果：<br><u>文本</u></p>
-<h3 id="2-9-代码块"><a href="#2-9-代码块" class="headerlink" title="2.9 代码块"></a>2.9 代码块</h3><p>第一种，在一行内需要引用代码的话就用反引号`框起来</p>
-<p><code>Hellow</code> World</p>
-<p>引用代码块在前一行和后一行使用三个反引号```</p>
-<h3 id="2-10-表格"><a href="#2-10-表格" class="headerlink" title="2.10 表格"></a>2.10 表格</h3><p>要添加表，使用三个或者多个连字符—创建每列的标题，使用|分割不同的单元格，用-分割表头和其他行。<br>单元格的宽度可以变化，不管怎么变呈现出来的效果是相同的。<br>代码示例：</p>
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">| Syntax      | Description |</span><br><span class="line">| ----------- | ----------- |</span><br><span class="line">| Header      | Title       |</span><br><span class="line">| Paragraph   | Text        |</span><br></pre></td></tr></table></figure></div>
-<p>效果：<br>| Syntax      | Description |<br>| ———– | ———– |<br>| Header      | Title       |<br>| Paragraph   | Text        |</p>
-<p><strong>对齐</strong><br>通过在连字符-的左侧or右侧or两侧加冒号：来实现左对齐和右对齐和居中对齐</p>
-<p>代码示例：</p>
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">| 项目     | 价格     | 数量     |</span><br><span class="line">| :---     |     ---:|  :----:  |</span><br><span class="line">| 计算机    | \$1600  |   5     |</span><br><span class="line">| 手机       |   \$12 |   12    |</span><br><span class="line">| 管线       |    \$1 |  234    |</span><br></pre></td></tr></table></figure></div>
-<p>效果：<br>| 项目     | 价格     | 数量     |<br>| :—     |     —:|  :—-:  |<br>| 计算机    | $1600  |   5     |<br>| 手机       |   $12 |   12    |<br>| 管线       |    $1 |  234    |</p>
-<h3 id="2-11-脚注"><a href="#2-11-脚注" class="headerlink" title="2.11 脚注"></a>2.11 脚注</h3><p>即对文本的备注，我们经常在论文参考文献中看到的，使用方法即[^n]，n填入数字。<br>代码：</p>
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">使用 Markdown[^1]可以效率的书写文档, 直接转换成 HTML[^2], 你可以使用 Typora[^T] 编辑器进行书写。</span><br><span class="line">[^1]:Markdown是一种纯文本标记语言</span><br><span class="line">[^2]:HyperText Markup Language 超文本标记语言</span><br><span class="line">[^T]:NEW WAY TO READ &amp; WRITE MARKDOWN.</span><br></pre></td></tr></table></figure></div>
-<p>效果：<br>使用 Markdown[^1]可以效率的书写文档, 直接转换成 HTML[^2], 你可以使用 Typora[^T] 编辑器进行书写。<br>[^1]:Markdown是一种纯文本标记语言<br>[^2]:HyperText Markup Language 超文本标记语言<br>[^T]:NEW WAY TO READ &amp; WRITE MARKDOWN.</p>
-<h3 id="2-12-特殊符号"><a href="#2-12-特殊符号" class="headerlink" title="2.12 特殊符号"></a>2.12 特殊符号</h3><p>在符号前面加反斜杠\可以显示符号本身。</p>
-<h2 id="Markdown高级用法"><a href="#Markdown高级用法" class="headerlink" title="Markdown高级用法"></a>Markdown高级用法</h2><p>Markdown还可以制作流程图、复杂的公式呈现，这些功能也有专门的工具来实现，高级用法了解一下就可以了，可以在：<a class="link"   href="https://www.runoob.com/markdown/md-advance.html" >菜鸟教程Markdown高级用法 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>、<a class="link"   href="https://www.zybuluo.com/mdeditor?url=https://www.zybuluo.com/static/editor/md-help.markdown#cmd-markdown-%E9%AB%98%E9%98%B6%E8%AF%AD%E6%B3%95%E6%89%8B%E5%86%8C" >Cmd Markdown简明语法手册 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>查看。<br>Markdown同时也支持HTML语法。</p>
-<h3 id="3-1制作待办事项"><a href="#3-1制作待办事项" class="headerlink" title="3.1制作待办事项"></a>3.1制作待办事项</h3><p>格式为- [ ]表未完成；- [x]表已完成<br>代码：</p>
-<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">- [ ] 支持以 PDF 格式导出文稿</span><br><span class="line">- [ ] 改进 Cmd 渲染算法，使用局部渲染技术提高渲染效率</span><br><span class="line">- [x] 新增 Todo 列表功能</span><br><span class="line">- [x] 修复 LaTex 公式渲染问题</span><br><span class="line">- [x] 新增 LaTex 公式编号功能</span><br></pre></td></tr></table></figure></div>
-<p>效果：</p>
-<ul>
-<li><input disabled="" type="checkbox"> 支持以 PDF 格式导出文稿</li>
-<li><input disabled="" type="checkbox"> 改进 Cmd 渲染算法，使用局部渲染技术提高渲染效率</li>
-<li><input checked="" disabled="" type="checkbox"> 新增 Todo 列表功能</li>
-<li><input checked="" disabled="" type="checkbox"> 修复 LaTex 公式渲染问题</li>
-<li><input checked="" disabled="" type="checkbox"> 新增 LaTex 公式编号功能</li>
-</ul>
-<h2 id="结尾"><a href="#结尾" class="headerlink" title="结尾"></a>结尾</h2><p>Markdown工具Typora<a class="link"   href="http://www.itmind.net/20343.html" >下载 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br>这篇博客是自己学习使用，用来练手同时记笔记，是跟着CSDN上的一篇博客学习的<a class="link"   href="https://blog.csdn.net/qq_40818172/article/details/126260661" >原文链接 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
-]]></content>
-      <tags>
-        <tag>Markdown</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hello World</title>
     <url>/posts/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a class="link"   href="https://hexo.io/" >Hexo <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>! This is your very first post. Check <a class="link"   href="https://hexo.io/docs/" >documentation <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> for more info. If you get any problems when using Hexo, you can find the answer in <a class="link"   href="https://hexo.io/docs/troubleshooting.html" >troubleshooting <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> or you can ask me on <a class="link"   href="https://github.com/hexojs/hexo/issues" >GitHub <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>.</p>
@@ -282,6 +175,113 @@
 <h5 id="2024倒是有在画啦但是在另一个设备上，等有时间再传吧"><a href="#2024倒是有在画啦但是在另一个设备上，等有时间再传吧" class="headerlink" title="2024倒是有在画啦但是在另一个设备上，等有时间再传吧"></a>2024倒是有在画啦但是在另一个设备上，等有时间再传吧</h5>]]></content>
       <tags>
         <tag>摸鱼稿</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Markdown学习</title>
+    <url>/posts/Markdown%E5%AD%A6%E4%B9%A0/</url>
+    <content><![CDATA[<h1 id="Markdown"><a href="#Markdown" class="headerlink" title="Markdown"></a>Markdown</h1><h2 id="1-1什么是Markdown"><a href="#1-1什么是Markdown" class="headerlink" title="1.1什么是Markdown"></a>1.1什么是Markdown</h2><p>Markdown时一种轻量级的标记语言，允许使用纯文本格式编写文档后转为有效的HTML文档，Markdown编写的文档可以导出HTML、Word、图像和PDF等多种格式的文档，编写的文档后缀为.md或.markdown。</p>
+<p>它的优点在于：<br>纯文本编辑、简单易上手、支持跨平台同步数据、可插入图片视频、随时修改不用担心word等工具出现排版错误</p>
+<h2 id="Markdown基本语法"><a href="#Markdown基本语法" class="headerlink" title="Markdown基本语法"></a>Markdown基本语法</h2><h3 id="2-1-标题"><a href="#2-1-标题" class="headerlink" title="2.1 标题"></a>2.1 标题</h3><h4 id="2-1-1写法一"><a href="#2-1-1写法一" class="headerlink" title="2.1.1写法一"></a>2.1.1写法一</h4><p>使用#标记，可以表示1-6级标题，#个数越多字体越大，一级标题最大，六级标题最小</p>
+<h6 id="注意：在编写时记得-与字符之间留一个空格，并且标题应置于首，放入表格中可能无法正常解析"><a href="#注意：在编写时记得-与字符之间留一个空格，并且标题应置于首，放入表格中可能无法正常解析" class="headerlink" title="注意：在编写时记得#与字符之间留一个空格，并且标题应置于首，放入表格中可能无法正常解析"></a>注意：在编写时记得#与字符之间留一个空格，并且标题应置于首，放入表格中可能无法正常解析</h6><p>代码如下：<br>#一级标题<br>##二级标题<br>###三级标题<br>####四级标题<br>#####五级标题<br>######六级标题</p>
+<p>效果如下：</p>
+<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6><h4 id="2-1-2-写法二"><a href="#2-1-2-写法二" class="headerlink" title="2.1.2 写法二"></a>2.1.2 写法二</h4><p>在标题下面加对字符数量的==或者-来表示一级和二级标题</p>
+<h1 id="一级标题-1"><a href="#一级标题-1" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题-1"><a href="#二级标题-1" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="2-2-字体"><a href="#2-2-字体" class="headerlink" title="2.2 字体"></a>2.2 字体</h3><h6 id="使用-来改变字体，一个是斜体，两个是粗体，三个是粗斜体"><a href="#使用-来改变字体，一个是斜体，两个是粗体，三个是粗斜体" class="headerlink" title="使用*/_来改变字体，一个是斜体，两个是粗体，三个是粗斜体"></a>使用*/_来改变字体，一个是斜体，两个是粗体，三个是粗斜体</h6><p><em>斜体</em><br><em>斜体</em><br><strong>粗体</strong><br><strong>粗体</strong><br><em><strong>粗斜体</strong></em><br><em><strong>粗斜体</strong></em></p>
+<h3 id="2-3-换行"><a href="#2-3-换行" class="headerlink" title="2.3 换行"></a>2.3 换行</h3><p>1.在一句话后敲下两个空格<br>2.两句话之间加一个空行<br>3.想让一行文字在现实时候换行，在中间加&lt;br/&gt;</p>
+<h3 id="2-4-引用"><a href="#2-4-引用" class="headerlink" title="2.4 引用"></a>2.4 引用</h3><p>通过符号&gt;实现，&gt;后的空格可有可无。在引用区块内允许换行，换行不会终止引用的区块，<strong>要结束引用需要一行空白行来结束引用区块</strong></p>
+<p>效果如下</p>
+<blockquote>
+<p>引用内容</p>
+</blockquote>
+<p>引用还可以嵌套使用</p>
+<blockquote>
+<p>第一层引用</p>
+<blockquote>
+<p>第二层，这里另起一行用了两个&gt;&gt;</p>
+<blockquote>
+<p>第三层，同理这里用了三个&gt;&gt;&gt;</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<h3 id="2-5-链接"><a href="#2-5-链接" class="headerlink" title="2.5 链接"></a>2.5 链接</h3><p><strong>在Markdown插入链接使用[] ()这两个要并在一起使用，前一个填写链接名称后一个填写链接地址、&lt;&gt;填写链接地址</strong></p>
+<p>即<br><a class="link"   href="https://s2.loli.net/2024/07/05/uY4OndxVlXsSL51.png" >三枝全力支援 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br>或<br><a class="link"   href="https://detawane.com/" >https://detawane.com/ <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+<h3 id="2-6-图片"><a href="#2-6-图片" class="headerlink" title="2.6 图片"></a>2.6 图片</h3><p> 代码:<br><code> ![图片描述，可写可不写但是一定要有](图片地址)三个符号要并在一起使用</code></p>
+<p>效果如下：<br><img  
+                     lazyload
+                     src="/images/loading.svg"
+                     data-src="https://s2.loli.net/2024/07/05/uY4OndxVlXsSL51.png"
+                      alt="三枝全力支援"
+                ></p>
+<p>此外还可以修改图片的位置和大小：<br>代码：</p>
+<blockquote>
+<p>! [图片描述，可写可不写，但是中括号要有] (图片地址，本地链接或者URL地址#pic_center空格=长x宽)</p>
+</blockquote>
+<p><em><strong>本地的图片在编写的时候显示成功但是上传到博客有可能会挂掉，为了能够成功显示可以进行将其上传托管生成链接，这里推荐一个发现了一个很方便的<a class="link"   href="https://sm.ms/" >网站sm.ms <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></strong></em></p>
+<h3 id="2-7-列表"><a href="#2-7-列表" class="headerlink" title="2.7 列表"></a>2.7 列表</h3><p>有序列表：使用*、+、-再加一个空格<br>无序列表：数字加上.号，再加一个空格</p>
+<p>效果：</p>
+<ul>
+<li>无序列表1</li>
+</ul>
+<ul>
+<li>无序列表2</li>
+</ul>
+<ul>
+<li>无序列表3</li>
+</ul>
+<ol>
+<li>有序列表</li>
+</ol>
+<p>使用Tab键控制列表层级</p>
+<ol>
+<li>有序<ol>
+<li>有序</li>
+</ol>
+</li>
+</ol>
+<ul>
+<li>无序<ul>
+<li>无序</li>
+</ul>
+</li>
+</ul>
+<h3 id="2-8-分割线、删除线、下划线"><a href="#2-8-分割线、删除线、下划线" class="headerlink" title="2.8 分割线、删除线、下划线"></a>2.8 分割线、删除线、下划线</h3><p><strong>分割线</strong><br>一行字连续三个-或者<em>来建立分割线，*<em>在分割线上需要空一行，否则会导致前一行字体放大</em></em><br>代码：</p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">***</span><br><span class="line">- - -</span><br><span class="line">* * *</span><br></pre></td></tr></table></figure></div>
+<p>效果：</p>
+<hr>
+<hr>
+<hr>
+<hr>
+<p><strong>删除线</strong><br>在要删除的文字前后加两个~<br>代码：<br><code>~~文字内容~~</code><br>效果：<br> <del>文字内容</del></p>
+<p><strong>下划线</strong><br>和html类似，<code>&lt;u&gt;文本&lt;/u&gt;</code><br>效果：<br><u>文本</u></p>
+<h3 id="2-9-代码块"><a href="#2-9-代码块" class="headerlink" title="2.9 代码块"></a>2.9 代码块</h3><p>第一种，在一行内需要引用代码的话就用反引号`框起来</p>
+<p><code>Hellow</code> World</p>
+<p>引用代码块在前一行和后一行使用三个反引号```</p>
+<h3 id="2-10-表格"><a href="#2-10-表格" class="headerlink" title="2.10 表格"></a>2.10 表格</h3><p>要添加表，使用三个或者多个连字符—创建每列的标题，使用|分割不同的单元格，用-分割表头和其他行。<br>单元格的宽度可以变化，不管怎么变呈现出来的效果是相同的。<br>代码示例：</p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">| Syntax      | Description |</span><br><span class="line">| ----------- | ----------- |</span><br><span class="line">| Header      | Title       |</span><br><span class="line">| Paragraph   | Text        |</span><br></pre></td></tr></table></figure></div>
+<p>效果：<br>| Syntax      | Description |<br>| ———– | ———– |<br>| Header      | Title       |<br>| Paragraph   | Text        |</p>
+<p><strong>对齐</strong><br>通过在连字符-的左侧or右侧or两侧加冒号：来实现左对齐和右对齐和居中对齐</p>
+<p>代码示例：</p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">| 项目     | 价格     | 数量     |</span><br><span class="line">| :---     |     ---:|  :----:  |</span><br><span class="line">| 计算机    | \$1600  |   5     |</span><br><span class="line">| 手机       |   \$12 |   12    |</span><br><span class="line">| 管线       |    \$1 |  234    |</span><br></pre></td></tr></table></figure></div>
+<p>效果：<br>| 项目     | 价格     | 数量     |<br>| :—     |     —:|  :—-:  |<br>| 计算机    | $1600  |   5     |<br>| 手机       |   $12 |   12    |<br>| 管线       |    $1 |  234    |</p>
+<h3 id="2-11-脚注"><a href="#2-11-脚注" class="headerlink" title="2.11 脚注"></a>2.11 脚注</h3><p>即对文本的备注，我们经常在论文参考文献中看到的，使用方法即[^n]，n填入数字。<br>代码：</p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">使用 Markdown[^1]可以效率的书写文档, 直接转换成 HTML[^2], 你可以使用 Typora[^T] 编辑器进行书写。</span><br><span class="line">[^1]:Markdown是一种纯文本标记语言</span><br><span class="line">[^2]:HyperText Markup Language 超文本标记语言</span><br><span class="line">[^T]:NEW WAY TO READ &amp; WRITE MARKDOWN.</span><br></pre></td></tr></table></figure></div>
+<p>效果：<br>使用 Markdown[^1]可以效率的书写文档, 直接转换成 HTML[^2], 你可以使用 Typora[^T] 编辑器进行书写。<br>[^1]:Markdown是一种纯文本标记语言<br>[^2]:HyperText Markup Language 超文本标记语言<br>[^T]:NEW WAY TO READ &amp; WRITE MARKDOWN.</p>
+<h3 id="2-12-特殊符号"><a href="#2-12-特殊符号" class="headerlink" title="2.12 特殊符号"></a>2.12 特殊符号</h3><p>在符号前面加反斜杠\可以显示符号本身。</p>
+<h2 id="Markdown高级用法"><a href="#Markdown高级用法" class="headerlink" title="Markdown高级用法"></a>Markdown高级用法</h2><p>Markdown还可以制作流程图、复杂的公式呈现，这些功能也有专门的工具来实现，高级用法了解一下就可以了，可以在：<a class="link"   href="https://www.runoob.com/markdown/md-advance.html" >菜鸟教程Markdown高级用法 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>、<a class="link"   href="https://www.zybuluo.com/mdeditor?url=https://www.zybuluo.com/static/editor/md-help.markdown#cmd-markdown-%E9%AB%98%E9%98%B6%E8%AF%AD%E6%B3%95%E6%89%8B%E5%86%8C" >Cmd Markdown简明语法手册 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a>查看。<br>Markdown同时也支持HTML语法。</p>
+<h3 id="3-1制作待办事项"><a href="#3-1制作待办事项" class="headerlink" title="3.1制作待办事项"></a>3.1制作待办事项</h3><p>格式为- [ ]表未完成；- [x]表已完成<br>代码：</p>
+<div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="code"><pre><span class="line">- [ ] 支持以 PDF 格式导出文稿</span><br><span class="line">- [ ] 改进 Cmd 渲染算法，使用局部渲染技术提高渲染效率</span><br><span class="line">- [x] 新增 Todo 列表功能</span><br><span class="line">- [x] 修复 LaTex 公式渲染问题</span><br><span class="line">- [x] 新增 LaTex 公式编号功能</span><br></pre></td></tr></table></figure></div>
+<p>效果：</p>
+<ul>
+<li><input disabled="" type="checkbox"> 支持以 PDF 格式导出文稿</li>
+<li><input disabled="" type="checkbox"> 改进 Cmd 渲染算法，使用局部渲染技术提高渲染效率</li>
+<li><input checked="" disabled="" type="checkbox"> 新增 Todo 列表功能</li>
+<li><input checked="" disabled="" type="checkbox"> 修复 LaTex 公式渲染问题</li>
+<li><input checked="" disabled="" type="checkbox"> 新增 LaTex 公式编号功能</li>
+</ul>
+<h2 id="结尾"><a href="#结尾" class="headerlink" title="结尾"></a>结尾</h2><p>Markdown工具Typora<a class="link"   href="http://www.itmind.net/20343.html" >下载 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a><br>这篇博客是自己学习使用，用来练手同时记笔记，是跟着CSDN上的一篇博客学习的<a class="link"   href="https://blog.csdn.net/qq_40818172/article/details/126260661" >原文链接 <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a></p>
+]]></content>
+      <tags>
+        <tag>Markdown</tag>
       </tags>
   </entry>
 </search>
